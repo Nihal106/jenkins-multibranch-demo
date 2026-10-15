@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Main Branch Stage') {
+        stage('Feature UI Stage') {
             steps {
-                echo "This is the MAIN branch build."
-                echo "Executing main branch pipeline..."
+                echo "This is the FEATURE-UI branch build."
+                echo "Running pipeline for UI feature development..."
             }
         }
     }
